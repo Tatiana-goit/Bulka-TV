@@ -1,0 +1,172 @@
+header {
+  position: relative;
+  border-bottom: 3px solid var(--grey-color);
+
+}
+
+.header__container {
+  padding: 30px;
+  position: fixed;
+  background-color: var(--white-color);
+  left: 0;;
+  right: 0;
+  z-index: 1;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo:hover,
+.header__logo:focus {
+  cursor: pointer;
+}
+
+.fa-cat {
+  color: var(--accent-color);
+  margin-right: 14px;
+}
+
+.header__logo-text {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--accent-color);
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+}
+
+.header__search-input {
+  height: 30px;
+  width: 30vw;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-color: var(--grey-color);
+}
+
+.header__search-input:focus,
+.header__search-input:hover {
+  border-color: var(--accent-color);
+}
+
+.fa-magnifying-glass {
+  background-color: var(--grey-color);
+  margin-right: 10px;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  border: 1px solid var(--grey-color);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.fa-magnifying-glass:hover,
+.fa-magnifying-glass:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.fa-microphone {
+  color: var(--grey-color);
+  cursor: pointer;
+}
+
+.fa-microphone:hover,
+.fa-microphone:focus {
+  color: var(--accent-color);
+}
+
+.header__menu {
+  display: flex;
+  /* position: absolute; */
+  align-items: center;
+}
+
+.fa-bell {
+  margin-right: 20px;
+  color: var(--grey-color);
+  cursor: pointer;
+}
+
+.fa-bell:hover,
+.fa-bell:focus {
+  color: var(--accent-color);
+}
+
+.fa-paw-menu {
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.fa-paw-menu:hover,
+.fa-paw-menu:focus {
+  color: var(--white-color);
+}
+
+.header__menu-all {
+  position: relative;
+  display: inline-block;
+}
+
+.header__menu-submenu {
+  display: none;
+  position: absolute;
+  left: -100px;
+  top: 30px;
+  width: 130px;
+  background-color: var(--white-color);
+  border: 1px solid var(--grey-color);
+  border-radius: 5px;
+}
+
+.header__menu-submenu-item {
+  display: block;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.header__menu-submenu-item:hover,
+.header__menu-submenu-item:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.header__menu-all:hover .header__menu-submenu,
+.header__menu-all:focus .header__menu-submenu {
+  display: block;
+}
+
+.fa-paw {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fa-gear {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__menu-submenu-item-third {
+  color: red;
+  border-top: 1px solid var(--grey-color);
+}
+
+.fa-right-from-bracket {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: red;
+}
