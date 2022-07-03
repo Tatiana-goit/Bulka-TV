@@ -76,8 +76,6 @@
 }
 
 .sidebar__item:hover .sidebar__item-count-circle::before {
-  /* color: #000; */
-  /* animation: animate_grow 2s infinite; */
   animation: pulse 2s infinite;
 }
 
