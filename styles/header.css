@@ -89,7 +89,6 @@ header {
 
 .header__menu {
   display: flex;
-  /* position: absolute; */
   align-items: center;
 }
 
