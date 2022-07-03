@@ -1,16 +1,16 @@
 header {
   position: relative;
   border-bottom: 3px solid var(--grey-color);
-
 }
 
 .header__container {
-  padding: 30px;
+  padding: 20px;
   position: fixed;
-  background-color: var(--white-color);
-  left: 0;;
+  left: 0;
   right: 0;
   z-index: 1;
+  background-color: var(--white-color);
+  border-bottom: 3px solid var(--grey-color);
 }
 
 .navigation {
@@ -48,6 +48,7 @@ header {
 .header__search-input {
   height: 30px;
   width: 30vw;
+  padding-left: 8px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-color: var(--grey-color);
@@ -150,23 +151,20 @@ header {
   display: block;
 }
 
-.fa-paw {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 .fa-gear {
-  margin-left: 10px;
   margin-right: 10px;
 }
 
 .header__menu-submenu-item-third {
-  color: red;
+  color: var(--red-color);
   border-top: 1px solid var(--grey-color);
 }
 
 .fa-right-from-bracket {
+  color: var(--red-color);
+}
+
+.fa-menu {
   margin-left: 10px;
   margin-right: 10px;
-  color: red;
 }
